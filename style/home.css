@@ -1,0 +1,127 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/* .navbar {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+*/
+.navbar-nav-right {
+    position: absolute;
+    right: 80px;
+} 
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        position: unset;
+        flex-direction: row;
+    }
+}
+
+.navbar-img {
+    width: 40px;
+}
+
+.navbar-text {
+    text-align: center;
+}
+
+.index-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.breadcrumb {
+    margin: 6px;
+}
+
+.home-box {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list-group {
+    margin-top: 30px;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid #ededed;
+    padding-top: 30px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carousel-control-prev {
+    background-color: transparent;
+    border: 0;
+}
+
+.carousel-control-next {
+    background-color: transparent;
+    border: 0;
+}
+
+.home-change-password-input {
+    width: 300px;
+}
+
+.home-change-password-center {
+    display: flex;
+    justify-content: center;
+    padding: 8.5px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.slide-fade-enter-active {
+    transition: all .3s ease-out .3s;
+}
+.slide-fade-leave-active {
+    transition: all .3s ease-out;
+}
+.slide-fade-enter {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.slide-fade-leave-to {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+tbody > tr {
+    transition: all .3s ease-out;
+}
+
+.list-complete-enter, .list-complete-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.list-complete-leave-active {
+  position: absolute;
+}
